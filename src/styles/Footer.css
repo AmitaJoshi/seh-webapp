@@ -1,0 +1,39 @@
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+  display: inline-block;
+}
+
+a.youtube {
+  color: #eb3223;
+  display: inline-block;
+}
+
+a.facebook {
+  color: #4968ad;
+  display: inline-block;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+  color: black;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: auto;
+  width: 100%;
+  position: "absolute";
+  vertical-align: auto;
+  display: inline-block;
+}

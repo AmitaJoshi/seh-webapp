@@ -1,0 +1,178 @@
+span.a {
+  color: #2b2727;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+  font-family: "Nunito", sans-serif;
+  font-size: 22px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+.instructions {
+  font-size: 0.75rem;
+  border-radius: 0.5rem;
+  background: #000;
+  color: #fff;
+  padding: 0.25rem;
+  position: relative;
+  bottom: -10px;
+}
+
+.instructions > svg {
+  margin-right: 0.25rem;
+}
+
+.offscreen {
+  position: absolute;
+  left: -9999px;
+}
+
+.hide {
+  display: none;
+}
+
+.valid {
+  color: limegreen;
+  margin-left: 0.25rem;
+}
+
+.invalid {
+  color: red;
+  margin-left: 0.25rem;
+}
+
+.EnrollNow {
+  text-align: center;
+  background-color: green;
+}
+
+.label {
+  display: block;
+  font-size: larger;
+  color: rgb(50, 47, 47);
+  padding: 5px;
+}
+
+.messages {
+  display: flex;
+  justify-content: center;
+}
+
+.error {
+  display: contents;
+  color: #ed0b0b;
+  width: fit-content;
+  height: 10px;
+  font-size: 5px;
+}
+
+.success {
+  display: block;
+  background-color: lightblue;
+  color: black;
+  width: fit-content;
+  height: 50px;
+  padding: 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 0%;
+  width: 600;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 9px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.text {
+  color: #009d32;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.inputs {
+  margin-top: 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 480px;
+  height: 80px;
+  padding: 5px;
+  background: #eaeaea;
+  border-radius: 6px;
+}
+
+.input img {
+  margin: 0px 30px;
+}
+
+.input input {
+  width: 400px;
+  height: 50px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #797979;
+  font-size: 19px;
+}
+
+.forgot-password {
+  padding-left: 62px;
+  margin-top: 27px;
+  color: #797979;
+  font-size: 18px;
+}
+
+.forgot-password span {
+  color: #6b9d00;
+  cursor: pointer;
+}
+
+.submit-container {
+  display: flex;
+  gap: 30px;
+  margin: 60px auto;
+}
+
+.submit {
+  padding-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 59px;
+  color: #fff;
+  background: #009fb4;
+  border-radius: 50px;
+  font-size: 19px;
+  font-weight: 700;
+  cursor: pointer;
+  gap: 30px;
+  margin: 60px auto;
+}
+
+.line {
+  padding-top: 0px;
+  border-radius: 50px;
+  display: inline-block;
+  align-items: center;
+  font-size: 19px;
+}
