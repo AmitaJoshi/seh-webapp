@@ -8,7 +8,7 @@ pipeline{
         }
         stage('Unit Test'){
             steps{
-                echo 'Testing...'
+                echo 'Testing'
             }
         }
         stage('Sonar Scan'){
